@@ -9,7 +9,7 @@ public void walking();
 public class Interfaces implements Interface{
 
 	
-	public void run() {
+	public void running() {
 		
 		
 		System.out.println("people are running");
@@ -18,7 +18,7 @@ public class Interfaces implements Interface{
 	}
 
 	
-	public void walk() {
+	public void walking() {
 		
 		System.out.println("people are walking");
 	}
@@ -29,8 +29,8 @@ public static void main(String args[]){
 	
 	Interfaces i = new Interfaces();
 	
-	i.run();
-	i.walk();
+	i.running();
+	i.walking();
 	
 	
 	
